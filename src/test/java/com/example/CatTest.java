@@ -25,4 +25,5 @@ public class CatTest {
         cat.getFood();
         Mockito.verify(feline, Mockito.times(1)).eatMeat();
     }
+
 }

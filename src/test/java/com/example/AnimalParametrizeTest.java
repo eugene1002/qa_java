@@ -7,11 +7,11 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class AnimalParametrizedTest {
+public class AnimalParametrizeTest {
     private final String animalKind;
     private final List<String> expected;
 
-    public AnimalParametrizedTest(String animalKind, List<String> expected) {
+    public AnimalParametrizeTest(String animalKind, List<String> expected) {
         this.animalKind = animalKind;
         this.expected = expected;
     }
