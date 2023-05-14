@@ -13,14 +13,14 @@ import static org.junit.Assert.assertThrows;
 
 
 @RunWith(Parameterized.class)
-public class LionParametrizedTest {
+public class LionParametrizeTest {
     private final String sex;
     private final boolean expected;
 
     @Mock
     Feline feline;
 
-    public LionParametrizedTest(String sex, boolean expected) {
+    public LionParametrizeTest(String sex, boolean expected) {
         this.sex = sex;
         this.expected = expected;
     }
